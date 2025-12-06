@@ -38,7 +38,7 @@ if st.button("Analisis Keuangan Ramadhan"):
     """
 
     response = client.chat.completions.create(
-        model="grok-1",
+        model="llama3-70b-8192",
         messages=[{"role": "user", "content": prompt}]
     )
 
