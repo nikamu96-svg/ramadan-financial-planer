@@ -65,4 +65,4 @@ if st.button("💡 Analisis & Buatkan Rencana"):
             st.code(str(e))
 
 st.divider()
-st.caption("Dibuat oleh Tuan Muda • Powered by Groq AI + Streamlit")
+st.caption("Powered by Groq AI + Streamlit")
