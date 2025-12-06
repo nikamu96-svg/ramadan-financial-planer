@@ -9,7 +9,7 @@ client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 st.set_page_config(page_title="AI Ramadhan Financial Planner", page_icon="🌙")
 
 st.title("🌙 AI Ramadhan Financial Planner")
-st.write("Aplikasi untuk membantu mengatur keuangan selama Ramadhan — dibuat oleh Tuan Muda.")
+st.write("Aplikasi untuk membantu mengatur keuangan selama Ramadhan.")
 
 st.divider()
 
